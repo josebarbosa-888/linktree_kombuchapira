@@ -1,41 +1,41 @@
 # Kombucha Pirá — Linktree
 
-Site estático (HTML/CSS/JS puro, sem build step) pronto para hospedar em cPanel. Baseado no linktree do Seu Artesão, com paleta própria da Kombucha Pirá (dourado, azul e roxo, extraídos do favicon real da marca).
+Site estático (HTML/CSS/JS puro, sem build step) pronto para hospedar em cPanel. Baseado no linktree do Seu Artesão (mesma estrutura/mecânica), com paleta própria da Kombucha Pirá — rosa, roxo, coral e azul, extraídos da logo real da marca.
 
 ## Estrutura
 
 ```
 index.html        página principal
-css/style.css      estilos (tema escuro + dourado/azul/roxo da marca)
+css/style.css      estilos (tema escuro + paleta rosa/roxo/coral/azul da marca)
 js/script.js       botão de compartilhar
-favicon.svg        ícone da marca (círculo dourado + ondas azul/roxo)
+favicon.svg        ícone da marca (círculo dourado + ondas azul/roxo — favicon real fornecido pelo cliente)
+assets/logo.png     logo "KOMBUCHA · PIRÁ" (recortada da arte colorida fornecida pelo cliente)
 assets/            foto de fundo (opcional)
 ```
 
-## Conteúdo atual — TUDO AINDA É PLACEHOLDER
+## Conteúdo atual
 
-Só uma informação é real até agora:
+- Logo: `assets/logo.png` (recortada da arte "LOGO COLORIDA SEM FUNDO" fornecida pelo cliente — removi o texto lateral "Chá fermentado não alcóolico" e a linha de redes sociais/handle do rodapé da arte original, que já aparecem como botões próprios no linktree)
+- WhatsApp: `(82) 99831-3717` (mesmo número do Seu Artesão) — mensagem pré-preenchida própria da Kombucha Pirá
+- Instagram: `https://www.instagram.com/kombuchapira/`
 - Nosso site: `https://kombuchapira.com.br/`
-
-O resto é placeholder, esperando os dados reais:
-- WhatsApp: `https://wa.me/5500000000000` (número de exemplo)
-- Instagram: `https://instagram.com/kombuchapira` (handle de exemplo, confirmar)
-- E-mail: `contato@kombuchapira.com.br` (exemplo, confirmar)
-- Tagline: "Kombucha artesanal, viva e borbulhante" (frase genérica)
-- Avatar: usa o próprio ícone/favicon da marca (círculo dourado + ondas) — trocar por uma foto/logo real se tiverem uma
+- Avalie no Google: link direto pra tela de avaliação (fornecido pelo cliente)
+- Onde nos encontrar: `https://kombuchapira.com.br/parceiros` — **atenção:** essa URL é uma suposição (aba de parceiros do site, seguindo o padrão do domínio); confirme o caminho exato assim que a página existir/for confirmada
+- Localização: link do Google Maps da fábrica (fornecido pelo cliente)
+- E-mail: `jayandersonamorim@gmail.com` (mesmo e-mail do Seu Artesão)
+- Tagline: frase genérica ("Kombucha artesanal, viva e borbulhante") — trocar quando tiver o texto definitivo
 
 ## O que trocar
 
 Em `index.html`:
-- `Kombucha Pirá` — nome/marca (`<title>`, meta description, `.name`, rodapé)
+- `Kombucha Pirá` — nome/marca (`<title>`, meta description, `alt` da logo, rodapé)
 - `.tagline` — frase curta
-- Links dos botões: WhatsApp, Instagram, Nosso site
-- `mailto:contato@kombuchapira.com.br` — e-mail de contato
-- O bloco `<div class="avatar">` — se tiverem uma foto/logo própria, trocar o SVG por `<img src="assets/logo.png" ...>` (mesmo padrão usado no linktree do Seu Artesão)
+- `assets/logo.png` — logo (substitua o arquivo para trocar a marca)
+- Links dos botões e o `mailto:` de e-mail
 
 Em `css/style.css`:
 - `background-image: url("../assets/background.jpg")` — foto de fundo (adicione `assets/background.jpg`; enquanto não existir, o site usa a cor `--bg-dark` sólida)
-- Cores no topo do arquivo (`--gold`, `--blue`, `--purple`, `--bg-dark`, etc.) para ajustar a paleta
+- Cores no topo do arquivo (`--blue`, `--purple`, `--coral`, `--pink`, `--bg-dark`, etc.) para ajustar a paleta
 
 ## Publicar no cPanel
 
