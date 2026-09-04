@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs><clipPath id="kpClip"><circle cx="12" cy="12" r="12"/></clipPath></defs>
+  <circle cx="12" cy="12" r="12" fill="#F6B92E"/>
+  <g clip-path="url(#kpClip)" fill="none" stroke-linecap="round">
+    <path stroke="#33AEE0" stroke-width="3.2" d="M-5 9 q2.25 -2.4 4.5 0 q2.25 2.4 4.5 0 q2.25 -2.4 4.5 0 q2.25 2.4 4.5 0 q2.25 -2.4 4.5 0 q2.25 2.4 4.5 0 q2.25 -2.4 4.5 0 q2.25 2.4 4.5 0"/>
+    <path stroke="#6B1B6E" stroke-width="3.2" d="M-2.75 15 q2.25 -2.4 4.5 0 q2.25 2.4 4.5 0 q2.25 -2.4 4.5 0 q2.25 2.4 4.5 0 q2.25 -2.4 4.5 0 q2.25 2.4 4.5 0 q2.25 -2.4 4.5 0 q2.25 2.4 4.5 0"/>
+  </g>
+</svg>
