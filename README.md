@@ -1,16 +1,15 @@
 # Kombucha Pirá — Linktree
 
-Site estático (HTML/CSS/JS puro, sem build step) pronto para hospedar em cPanel. Baseado no linktree do Seu Artesão (mesma estrutura/mecânica), com paleta própria da Kombucha Pirá — rosa, roxo, coral e azul, extraídos da logo real da marca.
+Site estático (HTML/CSS/JS puro, sem build step) pronto para hospedar em cPanel. Baseado no linktree do Seu Artesão (mesma estrutura/mecânica), com visual seguindo o próprio site da Kombucha Pirá: fundo em gradiente dourado/âmbar e botões em pílulas coloridas sólidas (verde do WhatsApp, gradiente do Instagram, roxo, vermelho, etc.), igual ao padrão usado em kombuchapira.com.br.
 
 ## Estrutura
 
 ```
 index.html        página principal
-css/style.css      estilos (tema escuro + paleta rosa/roxo/coral/azul da marca)
+css/style.css      estilos (fundo dourado + pílulas coloridas, no padrão do site da marca)
 js/script.js       botão de compartilhar
 favicon.svg        ícone da marca (círculo dourado + ondas azul/roxo — favicon real fornecido pelo cliente)
 assets/logo.png     logo "KOMBUCHA · PIRÁ" (recortada da arte colorida fornecida pelo cliente)
-assets/            foto de fundo (opcional)
 ```
 
 ## Conteúdo atual
@@ -34,8 +33,8 @@ Em `index.html`:
 - Links dos botões e o `mailto:` de e-mail
 
 Em `css/style.css`:
-- `background-image: url("../assets/background.jpg")` — foto de fundo (adicione `assets/background.jpg`; enquanto não existir, o site usa a cor `--bg-dark` sólida)
-- Cores no topo do arquivo (`--blue`, `--purple`, `--coral`, `--pink`, `--bg-dark`, etc.) para ajustar a paleta
+- Cores no topo do arquivo (`--bg-top`, `--bg-bottom`, `--purple`, `--navy`, `--red`, `--green`, `--pink`) para ajustar a paleta
+- Cada botão tem sua própria classe de cor (`.whatsapp`, `.instagram`, `.site`, `.review`, `.partners`, `.location`) — mude a cor de um botão específico editando a regra correspondente
 
 ## Publicar no cPanel
 
