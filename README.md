@@ -9,12 +9,12 @@ index.html        página principal
 css/style.css      estilos (fundo dourado + pílulas coloridas, no padrão do site da marca)
 js/script.js       botão de compartilhar
 favicon.svg        ícone da marca (círculo dourado + ondas azul/roxo — favicon real fornecido pelo cliente)
-assets/logo.png     logo "KOMBUCHA · PIRÁ" (recortada da arte colorida fornecida pelo cliente)
+assets/logo.png     logo "KOMBUCHA PIRÁ" (recortada de logo-kombucha-pira.png do site oficial)
 ```
 
 ## Conteúdo atual
 
-- Logo: `assets/logo.png` (recortada da arte "LOGO COLORIDA SEM FUNDO" fornecida pelo cliente — removi o texto lateral "Chá fermentado não alcóolico" e a linha de redes sociais/handle do rodapé da arte original, que já aparecem como botões próprios no linktree)
+- Logo: `assets/logo.png` — recortada direto de `logo-kombucha-pira.png` do repositório oficial do site (`kombucha_pira_site`), a mesma logo usada no cabeçalho de kombuchapira.com.br. Removi só a tag "Beba Gelada!" (canto superior); mantive "KOMBUCHA PIRÁ" + "Chá fermentado não alcóolico" + "Penedo-AL"
 - WhatsApp: `(82) 99831-3717` (mesmo número do Seu Artesão) — mensagem pré-preenchida própria da Kombucha Pirá
 - Instagram: `https://www.instagram.com/kombuchapira/`
 - Nosso site: `https://kombuchapira.com.br/`
