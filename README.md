@@ -18,6 +18,7 @@ assets/logo.png     logo "KOMBUCHA · PIRÁ" (recortada da arte colorida forneci
 - WhatsApp: `(82) 99831-3717` (mesmo número do Seu Artesão) — mensagem pré-preenchida própria da Kombucha Pirá
 - Instagram: `https://www.instagram.com/kombuchapira/`
 - Nosso site: `https://kombuchapira.com.br/`
+- Pedidos: `https://kombuchapira.com.br/pedido/`
 - Avalie no Google: link direto pra tela de avaliação (fornecido pelo cliente)
 - Onde nos encontrar: `https://kombuchapira.com.br/parceiros` — **atenção:** essa URL é uma suposição (aba de parceiros do site, seguindo o padrão do domínio); confirme o caminho exato assim que a página existir/for confirmada
 - Localização: link do Google Maps da fábrica (fornecido pelo cliente)
