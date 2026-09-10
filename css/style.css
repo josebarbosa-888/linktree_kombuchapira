@@ -7,6 +7,7 @@
   --red: #e93323;
   --green: #2fb84f;
   --pink: #c23b8c;
+  --orange: #f2790a;
   --text: #ffffff;
   --text-muted: #6a3d80;
 }
@@ -126,6 +127,7 @@ body {
   background: linear-gradient(45deg, #4f5bd5, #962fbf, #d62976, #fa7e1e, #feda75);
 }
 .link-btn.site { background: var(--navy); }
+.link-btn.orders { background: var(--orange); }
 .link-btn.review { background: var(--red); }
 .link-btn.partners { background: var(--purple); }
 .link-btn.location { background: var(--pink); }
