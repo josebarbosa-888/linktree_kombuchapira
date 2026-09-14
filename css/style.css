@@ -8,6 +8,7 @@
   --green: #2fb84f;
   --pink: #c23b8c;
   --orange: #f2790a;
+  --teal: #178a82;
   --text: #ffffff;
   --text-muted: #6a3d80;
 }
@@ -131,6 +132,7 @@ body {
 .link-btn.review { background: var(--red); }
 .link-btn.partners { background: var(--purple); }
 .link-btn.location { background: var(--pink); }
+.link-btn.partner { background: var(--teal); }
 
 .icon-row {
   display: flex;

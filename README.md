@@ -21,6 +21,7 @@ assets/logo.png     logo "KOMBUCHA · PIRÁ" (recortada da arte colorida forneci
 - Pedidos: `https://kombuchapira.com.br/pedido/`
 - Avalie no Google: link direto pra tela de avaliação (fornecido pelo cliente)
 - Onde nos encontrar: `https://kombuchapira.com.br/parceiros` — **atenção:** essa URL é uma suposição (aba de parceiros do site, seguindo o padrão do domínio); confirme o caminho exato assim que a página existir/for confirmada
+- Seu Artesão: `https://www.seuartesao.com.br/` (parceiro — cross-promoção, já que o Seu Artesão também linka pra Kombucha Pirá no linktree dele)
 - Localização: link do Google Maps da fábrica (fornecido pelo cliente)
 - E-mail: `jayandersonamorim@gmail.com` (mesmo e-mail do Seu Artesão)
 - Tagline: frase genérica ("Kombucha artesanal, viva e borbulhante") — trocar quando tiver o texto definitivo
