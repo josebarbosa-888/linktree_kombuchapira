@@ -22,6 +22,7 @@ assets/logo.png     logo "KOMBUCHA · PIRÁ" (recortada da arte colorida forneci
 - Avalie no Google: link direto pra tela de avaliação (fornecido pelo cliente)
 - Onde nos encontrar: `https://kombuchapira.com.br/parceiros` — **atenção:** essa URL é uma suposição (aba de parceiros do site, seguindo o padrão do domínio); confirme o caminho exato assim que a página existir/for confirmada
 - Seu Artesão: `https://www.seuartesao.com.br/` (parceiro — cross-promoção, já que o Seu Artesão também linka pra Kombucha Pirá no linktree dele)
+- Pix: chave `02585624471` (CPF, mesma do Seu Artesão) — botão copia a chave pro clipboard ao clicar
 - Localização: link do Google Maps da fábrica (fornecido pelo cliente)
 - E-mail: `jayandersonamorim@gmail.com` (mesmo e-mail do Seu Artesão)
 - Tagline: frase genérica ("Kombucha artesanal, viva e borbulhante") — trocar quando tiver o texto definitivo
@@ -41,5 +42,5 @@ Em `css/style.css`:
 ## Publicar no cPanel
 
 1. Crie o subdomínio ou pasta onde o site vai ficar (ex: `links.kombuchapira.com.br` ou uma pasta em `public_html`).
-2. No Gerenciador de Arquivos (ou via FTP), envie todo o conteúdo deste repositório **exceto o `README.md`** (`index.html`, `favicon.svg`, `css/`, `js/`, `assets/`) direto na raiz dessa pasta — sem subpasta extra.
+2. No Gerenciador de Arquivos (ou via FTP), envie todo o conteúdo deste repositório **exceto o `README.md`** (`index.html`, `favicon.svg`, `.htaccess`, `css/`, `js/`, `assets/`) direto na raiz dessa pasta — sem subpasta extra.
 3. Nenhuma instalação ou build é necessária — é só HTML/CSS/JS estático.
