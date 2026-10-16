@@ -1,7 +1,26 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
 const shareBtn = document.getElementById("shareBtn");
-const shareMsg = document.getElementById("shareMsg");
+const toast = document.getElementById("toast");
+const pixBtn = document.getElementById("pixBtn");
+const pixKey = "02585624471";
+
+let toastTimer;
+function showToast(text) {
+  toast.textContent = text;
+  toast.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove("show"), 2500);
+}
+
+pixBtn.addEventListener("click", async () => {
+  try {
+    await navigator.clipboard.writeText(pixKey);
+    showToast("Chave Pix copiada!");
+  } catch (err) {
+    showToast("Não foi possível copiar a chave.");
+  }
+});
 
 shareBtn.addEventListener("click", async () => {
   const shareData = {
@@ -16,12 +35,10 @@ shareBtn.addEventListener("click", async () => {
       return;
     }
     await navigator.clipboard.writeText(shareData.url);
-    shareMsg.textContent = "Link copiado!";
-    setTimeout(() => (shareMsg.textContent = ""), 2500);
+    showToast("Link copiado!");
   } catch (err) {
     if (err.name !== "AbortError") {
-      shareMsg.textContent = "Não foi possível compartilhar.";
-      setTimeout(() => (shareMsg.textContent = ""), 2500);
+      showToast("Não foi possível compartilhar.");
     }
   }
 });
