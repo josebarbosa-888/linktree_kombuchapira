@@ -3,7 +3,7 @@ document.getElementById("year").textContent = new Date().getFullYear();
 const shareBtn = document.getElementById("shareBtn");
 const toast = document.getElementById("toast");
 const pixBtn = document.getElementById("pixBtn");
-const pixKey = "02585624471";
+const pixKey = "+5582998313717";
 
 let toastTimer;
 function showToast(text) {
